@@ -56,8 +56,16 @@ public class NestedLoops {
         }
 
         //generate the same pattern as above but with an incrementing outer loop
-
+        //-use this pattern to generate spaces for pyramid problem
         for (int i = 0; i < 10; i++) {
+
+            for (int j = 10; j > i ; j--) {
+                System.out.print("x");
+            }
+
+            //second nested loop for Xs goes here
+
+            System.out.println();
 
         }
 
